@@ -1,0 +1,563 @@
+2025-03-18T16:35:52.604+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 19136 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:35:52.614+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:35:53.477+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:35:53.559+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-03-18T16:35:54.169+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2025-03-18T16:35:54.184+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:35:54.185+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:35:54.263+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:35:54.264+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1587 ms
+2025-03-18T16:35:54.391+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:35:54.595+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5ebf8cb9-1f7a-45e2-87b4-4bd5606b3822 user=SA
+2025-03-18T16:35:54.598+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:35:54.694+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:35:54.761+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:35:54.802+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:35:55.117+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:35:55.188+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:35:55.877+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:35:55.896+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:35:56.184+05:30  WARN 19136 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:35:56.204+05:30  WARN 19136 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:35:56.335+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:35:56.786+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5ebf8cb9-1f7a-45e2-87b4-4bd5606b3822'
+2025-03-18T16:35:56.870+05:30  WARN 19136 --- [VIL_TRAI_complience] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-18T16:35:56.872+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:35:56.877+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T16:35:56.879+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T16:35:56.891+05:30  INFO 19136 --- [VIL_TRAI_complience] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-18T16:35:56.927+05:30 ERROR 19136 --- [VIL_TRAI_complience] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2025-03-18T16:42:22.343+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 21728 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:42:22.346+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:42:23.114+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:42:23.210+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2025-03-18T16:42:23.777+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T16:42:23.788+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:42:23.789+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:42:23.845+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:42:23.845+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2025-03-18T16:42:23.982+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:42:24.165+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bf19eb08-1d3f-44c9-a32c-1d1e8780b1f9 user=SA
+2025-03-18T16:42:24.168+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:42:24.230+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:42:24.285+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:42:24.319+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:42:24.589+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:42:24.673+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:42:25.347+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:42:25.365+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:42:25.604+05:30  WARN 21728 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:42:25.625+05:30  WARN 21728 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:42:25.736+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:42:26.137+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bf19eb08-1d3f-44c9-a32c-1d1e8780b1f9'
+2025-03-18T16:42:26.212+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T16:42:26.224+05:30  INFO 21728 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.348 seconds (process running for 4.637)
+2025-03-18T16:44:01.794+05:30  INFO 21728 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T16:44:01.794+05:30  INFO 21728 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T16:44:01.796+05:30  INFO 21728 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-18T16:46:22.626+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 12460 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:46:22.630+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:46:23.369+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:46:23.444+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-03-18T16:46:24.072+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T16:46:24.082+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:46:24.082+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:46:24.136+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:46:24.137+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1455 ms
+2025-03-18T16:46:24.276+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:46:24.459+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e67d7a18-33f1-4686-9eae-5951e7f9eb27 user=SA
+2025-03-18T16:46:24.460+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:46:24.534+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:46:24.595+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:46:24.634+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:46:24.907+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:46:24.983+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:46:25.635+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:46:25.653+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:46:25.915+05:30  WARN 12460 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:46:25.933+05:30  WARN 12460 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:46:26.059+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:46:26.490+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e67d7a18-33f1-4686-9eae-5951e7f9eb27'
+2025-03-18T16:46:26.570+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T16:46:26.582+05:30  INFO 12460 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.435 seconds (process running for 4.734)
+2025-03-18T16:46:41.905+05:30  INFO 12460 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T16:46:41.907+05:30  INFO 12460 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T16:46:41.908+05:30  INFO 12460 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-18T16:52:11.229+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 23064 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:52:11.234+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:52:11.910+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:52:11.981+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-03-18T16:52:12.590+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T16:52:12.600+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:52:12.600+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:52:12.650+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:52:12.651+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2025-03-18T16:52:12.782+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:52:12.974+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T16:52:12.976+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:52:13.041+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:52:13.093+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:52:13.131+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:52:13.405+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:52:13.454+05:30  WARN 23064 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T16:52:13.474+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:52:14.142+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:52:14.160+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:52:14.418+05:30  WARN 23064 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:52:14.435+05:30  WARN 23064 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:52:14.546+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:52:15.065+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T16:52:15.076+05:30  INFO 23064 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.312 seconds (process running for 4.609)
+2025-03-18T16:53:03.093+05:30  INFO 23064 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T16:53:03.093+05:30  INFO 23064 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T16:53:03.096+05:30  INFO 23064 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-18T16:54:41.160+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 22260 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:54:41.164+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:54:41.901+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:54:41.976+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-03-18T16:54:42.560+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T16:54:42.577+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:54:42.578+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:54:42.658+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:54:42.659+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1448 ms
+2025-03-18T16:54:42.777+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:54:42.987+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T16:54:42.991+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:54:43.071+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:54:43.136+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:54:43.197+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:54:43.502+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:54:43.563+05:30  WARN 22260 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T16:54:43.585+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:54:44.330+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:54:44.352+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:54:44.617+05:30  WARN 22260 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:54:44.636+05:30  WARN 22260 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:54:44.741+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:54:45.304+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T16:54:45.314+05:30  INFO 22260 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.635 seconds (process running for 4.95)
+2025-03-18T16:55:00.456+05:30  INFO 22260 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T16:55:00.456+05:30  INFO 22260 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T16:55:00.462+05:30  INFO 22260 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-18T16:59:11.811+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 17804 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T16:59:11.814+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T16:59:12.531+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T16:59:12.599+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2025-03-18T16:59:13.209+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T16:59:13.225+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T16:59:13.225+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T16:59:13.286+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T16:59:13.286+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2025-03-18T16:59:13.409+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T16:59:13.581+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T16:59:13.584+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T16:59:13.646+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T16:59:13.691+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T16:59:13.724+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T16:59:13.996+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T16:59:14.046+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T16:59:14.068+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T16:59:14.744+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T16:59:14.762+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T16:59:14.997+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T16:59:15.017+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T16:59:15.134+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T16:59:15.555+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T16:59:15.633+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T16:59:15.645+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.309 seconds (process running for 4.624)
+2025-03-18T16:59:31.305+05:30  INFO 17804 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T16:59:31.308+05:30  INFO 17804 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T16:59:31.313+05:30  INFO 17804 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-18T17:02:19.852+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 19848 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T17:02:19.856+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T17:02:20.607+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T17:02:20.681+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-03-18T17:02:21.285+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T17:02:21.299+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T17:02:21.300+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T17:02:21.356+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T17:02:21.357+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2025-03-18T17:02:21.491+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T17:02:21.684+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T17:02:21.687+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T17:02:21.754+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T17:02:21.805+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T17:02:21.843+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T17:02:22.122+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T17:02:22.174+05:30  WARN 19848 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T17:02:22.194+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T17:02:22.841+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T17:02:22.859+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:02:23.096+05:30  WARN 19848 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T17:02:23.379+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T17:02:23.432+05:30  WARN 19848 --- [VIL_TRAI_complience] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 20e8d1b9-b383-4b74-b401-6a513e6f0a70
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-18T17:02:23.454+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-18T17:02:23.627+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T17:02:23.636+05:30  INFO 19848 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.256 seconds (process running for 4.552)
+2025-03-18T17:02:48.191+05:30  INFO 19848 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T17:02:48.191+05:30  INFO 19848 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T17:02:48.191+05:30  INFO 19848 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-18T17:04:23.795+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 25424 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T17:04:23.800+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T17:04:24.586+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T17:04:24.651+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-03-18T17:04:25.203+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T17:04:25.218+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T17:04:25.218+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T17:04:25.271+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T17:04:25.272+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1424 ms
+2025-03-18T17:04:25.418+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T17:04:25.587+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T17:04:25.589+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T17:04:25.652+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T17:04:25.702+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T17:04:25.742+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T17:04:26.015+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T17:04:26.077+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T17:04:26.711+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T17:04:26.730+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:04:26.983+05:30  WARN 25424 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T17:04:27.001+05:30  WARN 25424 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T17:04:27.119+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T17:04:27.550+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T17:04:27.626+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T17:04:27.635+05:30  INFO 25424 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.284 seconds (process running for 4.579)
+2025-03-18T17:04:47.263+05:30  INFO 25424 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T17:04:47.263+05:30  INFO 25424 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T17:04:47.267+05:30  INFO 25424 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-18T17:09:31.534+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 17804 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T17:09:31.538+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T17:09:32.302+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T17:09:32.378+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2025-03-18T17:09:32.944+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T17:09:32.960+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T17:09:32.961+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T17:09:33.023+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T17:09:33.024+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2025-03-18T17:09:33.159+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T17:09:33.334+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T17:09:33.336+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T17:09:33.396+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T17:09:33.445+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T17:09:33.485+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T17:09:33.754+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T17:09:33.803+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T17:09:33.822+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T17:09:34.478+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T17:09:34.496+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:09:34.736+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T17:09:34.752+05:30  WARN 17804 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T17:09:34.861+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T17:09:35.302+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T17:09:35.378+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T17:09:35.389+05:30  INFO 17804 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 4.306 seconds (process running for 4.604)
+2025-03-18T17:09:57.641+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 1512 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T17:09:57.643+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T17:09:58.160+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T17:09:58.210+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2025-03-18T17:09:58.598+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T17:09:58.609+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T17:09:58.610+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T17:09:58.653+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T17:09:58.653+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2025-03-18T17:09:58.736+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T17:09:58.866+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T17:09:58.868+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T17:09:58.915+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T17:09:58.947+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T17:09:58.972+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T17:09:59.146+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T17:09:59.179+05:30  WARN 1512 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T17:09:59.192+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T17:09:59.755+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T17:09:59.778+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:09:59.937+05:30  WARN 1512 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T17:09:59.950+05:30  WARN 1512 --- [VIL_TRAI_complience] [main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2025-03-18T17:10:00.058+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsManager
+2025-03-18T17:10:00.361+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T17:10:00.413+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T17:10:00.424+05:30  INFO 1512 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 3.134 seconds (process running for 3.537)
+2025-03-18T17:10:24.285+05:30  INFO 1512 --- [VIL_TRAI_complience] [http-nio-9090-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T17:10:24.285+05:30  INFO 1512 --- [VIL_TRAI_complience] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T17:10:24.285+05:30  INFO 1512 --- [VIL_TRAI_complience] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-18T17:11:19.698+05:30  INFO 1512 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-18T17:11:19.700+05:30  INFO 1512 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T17:11:19.793+05:30  INFO 1512 --- [VIL_TRAI_complience] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T17:11:19.798+05:30  INFO 1512 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:11:19.802+05:30  INFO 1512 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T17:11:19.804+05:30  INFO 1512 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T17:12:36.801+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 25228 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T17:12:36.803+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T17:12:37.227+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T17:12:37.277+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-03-18T17:12:37.575+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T17:12:37.584+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T17:12:37.584+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T17:12:37.622+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T17:12:37.623+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2025-03-18T17:12:37.698+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T17:12:37.830+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T17:12:37.832+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T17:12:37.881+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T17:12:37.914+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T17:12:37.936+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T17:12:38.121+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T17:12:38.155+05:30  WARN 25228 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T17:12:38.172+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T17:12:38.716+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T17:12:38.738+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:12:38.892+05:30  WARN 25228 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T17:12:39.094+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T17:12:39.145+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T17:12:39.154+05:30  INFO 25228 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 2.678 seconds (process running for 3.069)
+2025-03-18T17:13:51.588+05:30  INFO 25228 --- [VIL_TRAI_complience] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-18T17:13:51.590+05:30  INFO 25228 --- [VIL_TRAI_complience] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T17:13:51.683+05:30  INFO 25228 --- [VIL_TRAI_complience] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T17:13:51.686+05:30  INFO 25228 --- [VIL_TRAI_complience] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:13:51.689+05:30  INFO 25228 --- [VIL_TRAI_complience] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T17:13:51.691+05:30  INFO 25228 --- [VIL_TRAI_complience] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T18:32:26.986+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 7148 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T18:32:26.989+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T18:32:27.421+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T18:32:27.475+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-03-18T18:32:27.788+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T18:32:27.799+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T18:32:27.799+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T18:32:27.842+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T18:32:27.842+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2025-03-18T18:32:27.921+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T18:32:28.051+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T18:32:28.053+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T18:32:28.104+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T18:32:28.143+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T18:32:28.170+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T18:32:28.352+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T18:32:28.381+05:30  WARN 7148 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T18:32:28.394+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T18:32:28.980+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T18:32:28.999+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:32:29.163+05:30  WARN 7148 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T18:32:29.363+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T18:32:29.417+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T18:32:29.426+05:30  INFO 7148 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 2.79 seconds (process running for 3.152)
+2025-03-18T18:34:04.767+05:30  INFO 7148 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-18T18:34:04.769+05:30  INFO 7148 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T18:34:04.864+05:30  INFO 7148 --- [VIL_TRAI_complience] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T18:34:04.868+05:30  INFO 7148 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:34:04.871+05:30  INFO 7148 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T18:34:04.873+05:30  INFO 7148 --- [VIL_TRAI_complience] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T18:43:15.876+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 1560 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T18:43:15.878+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T18:43:16.303+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T18:43:16.356+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-03-18T18:43:16.667+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T18:43:16.675+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T18:43:16.675+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T18:43:16.715+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T18:43:16.715+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 805 ms
+2025-03-18T18:43:16.795+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T18:43:16.914+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T18:43:16.916+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T18:43:16.961+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T18:43:16.992+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T18:43:17.014+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T18:43:17.197+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T18:43:17.227+05:30  WARN 1560 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T18:43:17.239+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T18:43:17.841+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T18:43:17.869+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:43:18.079+05:30  WARN 1560 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T18:43:18.279+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T18:43:18.331+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T18:43:18.339+05:30  INFO 1560 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 2.793 seconds (process running for 3.173)
+2025-03-18T18:47:27.763+05:30  INFO 1560 --- [VIL_TRAI_complience] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-18T18:47:27.765+05:30  INFO 1560 --- [VIL_TRAI_complience] [RMI TCP Connection(9)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T18:47:27.856+05:30  INFO 1560 --- [VIL_TRAI_complience] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T18:47:27.860+05:30  INFO 1560 --- [VIL_TRAI_complience] [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:47:27.863+05:30  INFO 1560 --- [VIL_TRAI_complience] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T18:47:27.865+05:30  INFO 1560 --- [VIL_TRAI_complience] [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T18:47:35.025+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 25008 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T18:47:35.026+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T18:47:35.443+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T18:47:35.490+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-03-18T18:47:35.809+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T18:47:35.818+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T18:47:35.818+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T18:47:35.872+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T18:47:35.873+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2025-03-18T18:47:35.970+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T18:47:36.099+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T18:47:36.100+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T18:47:36.150+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T18:47:36.185+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T18:47:36.214+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T18:47:36.394+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T18:47:36.425+05:30  WARN 25008 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T18:47:36.437+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T18:47:37.016+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T18:47:37.038+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:47:37.198+05:30  WARN 25008 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T18:47:37.409+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T18:47:37.464+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T18:47:37.472+05:30  INFO 25008 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 2.77 seconds (process running for 3.163)
+2025-03-18T18:47:54.324+05:30  INFO 25008 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T18:47:54.324+05:30  INFO 25008 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T18:47:54.326+05:30  INFO 25008 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-18T18:50:45.637+05:30  INFO 25008 --- [VIL_TRAI_complience] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-18T18:50:45.639+05:30  INFO 25008 --- [VIL_TRAI_complience] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T18:50:45.731+05:30  INFO 25008 --- [VIL_TRAI_complience] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T18:50:45.733+05:30  INFO 25008 --- [VIL_TRAI_complience] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:50:45.737+05:30  INFO 25008 --- [VIL_TRAI_complience] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T18:50:45.739+05:30  INFO 25008 --- [VIL_TRAI_complience] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-18T18:50:51.571+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Starting VilTraiComplienceApplication using Java 17.0.12 with PID 19196 (C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience\target\classes started by Shiva P in C:\Users\Shiva P\Documents\workspace-spring-tool-suite-4-4.25.0.RELEASE\spring\potti\VIL_TRAI_complience)
+2025-03-18T18:50:51.572+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-03-18T18:50:51.985+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-18T18:50:52.031+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-03-18T18:50:52.348+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-18T18:50:52.356+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-18T18:50:52.356+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-18T18:50:52.394+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-18T18:50:52.395+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 788 ms
+2025-03-18T18:50:52.476+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-18T18:50:52.595+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-03-18T18:50:52.598+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-18T18:50:52.642+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-18T18:50:52.675+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-18T18:50:52.701+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-18T18:50:52.879+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-18T18:50:52.913+05:30  WARN 19196 --- [VIL_TRAI_complience] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-18T18:50:52.930+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-18T18:50:53.501+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-18T18:50:53.520+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T18:50:53.682+05:30  WARN 19196 --- [VIL_TRAI_complience] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-18T18:50:53.877+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-18T18:50:53.929+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-18T18:50:53.939+05:30  INFO 19196 --- [VIL_TRAI_complience] [main] com.vil.VilTraiComplienceApplication     : Started VilTraiComplienceApplication in 2.726 seconds (process running for 3.115)
+2025-03-18T18:50:59.925+05:30  INFO 19196 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-18T18:50:59.926+05:30  INFO 19196 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-18T18:50:59.927+05:30  INFO 19196 --- [VIL_TRAI_complience] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
