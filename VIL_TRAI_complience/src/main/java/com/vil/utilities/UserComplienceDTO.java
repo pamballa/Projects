@@ -28,10 +28,7 @@ public class UserComplienceDTO {
 	private String VASProvider;
 	@NotBlank(message = "channal type is mandatory")
 	private String channelType; //IVR_call/SMS/CRM/vil_site/
-	private Date createdOn;
 	private String createdBy;
-	private String updatedOn;
 	private String description;
-	private String TRAIstatus;
 
 }

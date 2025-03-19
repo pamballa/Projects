@@ -18,7 +18,7 @@ public class ComplianceService {
 		private ComplianceRepository repository;
 		
 
-	    public ComplianceRecord saveRecord(UserComplienceDTO userDto) {
+	    public ComplianceRecord saveRecord(ComplianceRecord userDto) {
 	    	/*private int compl_Id;
 	    	private long mobileNo;
 	    	private String emialId;
